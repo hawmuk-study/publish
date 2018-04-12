@@ -1,0 +1,127 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@charset "utf-8";
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Reset */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+form,fieldset,legend,input,label,button,textarea,select,
+table, caption, tbody, tfoot, thead, tr, th, td,
+textarea,input,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {margin:0; padding:0;color: #000;}
+
+html {overflow-y: scroll;}
+html,body {width: 100%; height: 100%;}
+body {
+	background-color: #fff;
+	line-height: 1.4;
+	text-align: left;
+	*word-break: break-all;
+	-ms-word-break: break-all;
+	-webkit-text-size-adjust: none;
+	font-size: 13px;
+}
+
+article, aside, canvas, details, figcaption, figure,
+footer, header, main, hgroup, menu, nav, section, summary {display: block;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: none;}
+
+ins {text-decoration: none;}
+mark {font-style: italic; font-weight: bold;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom: 1px dotted #000;}
+
+table {
+	empty-cells: show;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table td {word-break: break-all;}
+ol, ul, li {list-style: none;}
+
+img, fieldset, iframe {border: 0 none;}
+
+input, select, button, img, label, textarea {vertical-align: middle;}
+label, button {cursor: pointer;}
+button {
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+textarea {border: 1px solid #dadada;}
+
+body, select, input, button, textarea, button {
+	font-size: 14px;
+	font-family: 'Roboto', 'Noto Sans KR', 'Nanum Gothic Web', '나눔고딕', '돋움', Dotum, AppleGothic, sans-serif;
+	font-weight: 400;
+	font-style:noraml;
+}
+h1, h2, h3, h4, h5, h6, strong {
+	font-size:14px;
+	font-family: 'Roboto', 'Noto Sans KR', 'Nanum Gothic Web', '나눔고딕', '돋움', Dotum, AppleGothic, sans-serif;
+	font-weight: 700;
+	font-style:noraml;
+}
+legend {*width: 0;}
+legend, hr, caption {
+	overflow: hidden;
+	font-size: 0;
+	width: 0;
+	height: 0;
+	line-height: 0;
+}
+legend, hr {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+i, em, address {font-style: normal;}
+
+a {
+	color: #444;
+	text-decoration: none;
+}
+a:link,
+a:visited {color: #444; text-decoration: none;}
+a:hover {text-decoration: none;}
+
+a[href^=tel] {color: inherit; text-decoration: none;} /* i phon number color reset */
+
+input[type=text],
+input[type=tel],
+input[type=number],
+input[type=password] {-webkit-appearance: none;}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;} /* input reset */
+
+::-webkit-input-placeholder {color: #9b9b9b;} /* WebKit browsers */
+:-moz-placeholder {color: #9b9b9b; opacity: 1;} /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder {color: #9b9b9b; opacity: 1;} /* Mozilla Firefox 19+ */
+:-ms-input-placeholder {color:#9b9b9b;} /* Internet Explorer 10+ */
+
+.hidden {display: inline-block; overflow: hidden; position: absolute; top: -1000em; left: 0; visibility:hidden; opacity:0; height:0; width:0;}
+
+
+div img{
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+.Admin_GnbWrap{
+	width: 100%;
+	float: left;
+}
+
+
+.TopBarWrap{
+	background-color: #3c3c3e;
+	width: 100%;
+	height: 60px;
+	float: left;
+}
+
+.TopBar{
+	width: 1260px;
+	margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 207px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.Gnb{
+	background-color: #f8f8f8;
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+
+.GnbList{
+	width: 1260px;
+	margin: 0 auto;
+}
+
+.GnbList li{
+	float: left;
+	padding: 0 25px;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.Admin_ContentWrap{
+	width: 100%;
+	float: left;
+}
+
+.Admin_Content{
+	width: 1260px;
+	margin: 40px auto;
+}
+
+.Admin_Content > div{
+	float: left;
+	height: 300px;
+	margin-bottom: 20px;
+}
+
+.orderSectionWrap{
+	width: 70%;
+	margin-right: 5%;
+	margin-bottom: 20px;
+}
+
+.answerSectionWrap{
+	width: 25%;
+	margin-bottom: 20px;
+}
+
+.noticeSectionWrap{
+	width: 50%;
+	margin-right: 5%;
+}
+
+.eventSectionWrap{
+	width: 45%;
+}
+
+.Admin_Content > div > h2{
+	width: 100%;
+	display: block;
+	border-bottom: 2px solid #3c3c3e;
+	font-size: 18px;
+	height: 38px;
+}
